@@ -1,0 +1,203 @@
+fileFormatVersion: 2
+guid: 571f39be3eeea244bba4e9ea56de4d8f
+timeCreated: 1480164185
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Body
+    100004: Brow_1_L
+    100006: Brow_1_R
+    100008: Brow_2_L
+    100010: Brow_2_L_end
+    100012: Brow_2_R
+    100014: Brow_2_R_end
+    100016: brow_ctrl_1
+    100018: brow_ctrl_1_end
+    100020: brow_ctrl_2
+    100022: brow_ctrl_2_end
+    100024: //RootNode
+    100026: mesh_Phoenix
+    100028: Tail_1
+    100030: Tail_2
+    100032: Tail_2.001
+    100034: Tail_2.001_end
+    100036: Tail_2_end
+    100038: wing_1_L
+    100040: wing_1_R
+    100042: wing_2_L
+    100044: wing_2_L_end
+    100046: wing_2_R
+    100048: wing_2_R_end
+    400000: Armature
+    400002: Body
+    400004: Brow_1_L
+    400006: Brow_1_R
+    400008: Brow_2_L
+    400010: Brow_2_L_end
+    400012: Brow_2_R
+    400014: Brow_2_R_end
+    400016: brow_ctrl_1
+    400018: brow_ctrl_1_end
+    400020: brow_ctrl_2
+    400022: brow_ctrl_2_end
+    400024: mesh_Phoenix
+    400026: //RootNode
+    400028: Tail_1
+    400030: Tail_2
+    400032: Tail_2.001
+    400034: Tail_2.001_end
+    400036: Tail_2_end
+    400038: wing_1_L
+    400040: wing_1_R
+    400042: wing_2_L
+    400044: wing_2_L_end
+    400046: wing_2_R
+    400048: wing_2_R_end
+    4300000: mesh_Phoenix
+    7400000: Armature|anim_phoenix_flying
+    9500000: //RootNode
+    13700000: mesh_Phoenix
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|anim_phoenix_flying
+      takeName: Armature|anim_phoenix_flying
+      firstFrame: 0
+      lastFrame: 17
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Body
+        weight: 1
+      - path: Armature/Body/Brow_1_L
+        weight: 1
+      - path: Armature/Body/Brow_1_L/Brow_2_L
+        weight: 1
+      - path: Armature/Body/Brow_1_L/Brow_2_L/Brow_2_L_end
+        weight: 1
+      - path: Armature/Body/Brow_1_R
+        weight: 1
+      - path: Armature/Body/Brow_1_R/Brow_2_R
+        weight: 1
+      - path: Armature/Body/Brow_1_R/Brow_2_R/Brow_2_R_end
+        weight: 1
+      - path: Armature/Body/brow_ctrl_1
+        weight: 1
+      - path: Armature/Body/brow_ctrl_1/brow_ctrl_1_end
+        weight: 1
+      - path: Armature/Body/brow_ctrl_2
+        weight: 1
+      - path: Armature/Body/brow_ctrl_2/brow_ctrl_2_end
+        weight: 1
+      - path: Armature/Body/Tail_1
+        weight: 1
+      - path: Armature/Body/Tail_1/Tail_2
+        weight: 1
+      - path: Armature/Body/Tail_1/Tail_2/Tail_2_end
+        weight: 1
+      - path: Armature/Body/Tail_2.001
+        weight: 1
+      - path: Armature/Body/Tail_2.001/Tail_2.001_end
+        weight: 1
+      - path: Armature/Body/wing_1_L
+        weight: 1
+      - path: Armature/Body/wing_1_L/wing_2_L
+        weight: 1
+      - path: Armature/Body/wing_1_L/wing_2_L/wing_2_L_end
+        weight: 1
+      - path: Armature/Body/wing_1_R
+        weight: 1
+      - path: Armature/Body/wing_1_R/wing_2_R
+        weight: 1
+      - path: Armature/Body/wing_1_R/wing_2_R/wing_2_R_end
+        weight: 1
+      - path: mesh_Phoenix
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
